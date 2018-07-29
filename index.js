@@ -1,4 +1,6 @@
-document.addEventListener("DOMContentLoaded",function(even){
+
+//Register the author partial on the DOMContentLoaded event
+document.addEventListener("DOMContentLoaded",function(event){
   Handlebars.registerPartial("authorPartial",document.getElementById("author-partial-template").innerHTML);
 });
 
